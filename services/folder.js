@@ -1,7 +1,7 @@
 import axios from "axios";
 export const createFolder = async (data) => {
   const res = axios.post(
-    `http://localhost:3000/api/folder/createFolder`,
+    `https://form-builder-yhfe.onrender.com/api/folder/createFolder`,
     data,
     {
       headers: {
@@ -14,7 +14,7 @@ export const createFolder = async (data) => {
 };
 
 export const getAllFolders = async (email) => {
-  const res = await axios.get(`http://localhost:3000/api/folder`, {
+  const res = await axios.get(`https://form-builder-yhfe.onrender.com/api/folder`, {
     params: { email },
     headers: {
       "Content-Type": "application/json",
@@ -25,7 +25,7 @@ export const getAllFolders = async (email) => {
 
 export const deleteFolder = async (data) => {
   const res = await axios.delete(
-    `http://localhost:3000/api/folder/deleteFolder/${data.id}`,
+    `https://form-builder-yhfe.onrender.com/api/folder/deleteFolder/${data.id}`,
     {
       headers: {
         "Content-Type": "application/json",
@@ -37,6 +37,6 @@ export const deleteFolder = async (data) => {
 };
 
 export const myDetails = async (email) => {
-  const res = axios.get(`http://localhost:3000/api/folder/${email}`, {});
+  const res = axios.get(`https://form-builder-yhfe.onrender.com/api/folder/${email}`, {});
   return res;
 };

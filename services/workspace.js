@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const addUserToWorkspace = async (data) => {
   const res = await axios.put(
-    `http://localhost:3000/api/workspace/addMember`,
+    `https://form-builder-yhfe.onrender.com/api/workspace/addMember`,
     data,
     {
       headers: {
@@ -16,7 +16,7 @@ export const addUserToWorkspace = async (data) => {
 
 export const addMemberByCopyLink = async (data) => {
   const res = await axios.put(
-    `http://localhost:3000/api/workspace/addMemberByCopyLink`,
+    `https://form-builder-yhfe.onrender.com/api/workspace/addMemberByCopyLink`,
     data,
     {
       headers: {
@@ -29,7 +29,7 @@ export const addMemberByCopyLink = async (data) => {
 };
 
 export const getAllMyWorkspaces = async (email) => {
-  const res = await axios.get(`http://localhost:3000/api/workspace/workspacesByUser`, {
+  const res = await axios.get(`https://form-builder-yhfe.onrender.com/api/workspace/workspacesByUser`, {
     params: { email },
     headers: {
       "Content-Type": "application/json",

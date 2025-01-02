@@ -1,7 +1,7 @@
 import axios from "axios";
 export const saveResponse = async (data) => {
   const res = axios.post(
-    `http://localhost:3000/api/response/submitResponse`,
+    `https://form-builder-yhfe.onrender.com/api/response/submitResponse`,
     data,
     {
       headers: {
@@ -14,7 +14,7 @@ export const saveResponse = async (data) => {
 };
 
 export const getFormResponses = async (formId) => {
-  const res = await axios.get(`http://localhost:3000/api/response/${formId}`, {
+  const res = await axios.get(`https://form-builder-yhfe.onrender.com/api/response/${formId}`, {
       params: { formId },
     headers: {
       "Content-Type": "application/json",

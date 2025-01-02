@@ -1,7 +1,7 @@
 import axios from "axios";
 export const register = async (data) => {
   const res = axios.post(
-    `http://localhost:3000/api/user/register`,
+    `https://form-builder-yhfe.onrender.com/api/user/register`,
     data,
     {
       headers: {
@@ -15,7 +15,7 @@ export const register = async (data) => {
 
 export const loginUser = async (data) => {
   const res = axios.post(
-    `http://localhost:3000/api/user/login`,
+    `https://form-builder-yhfe.onrender.com/api/user/login`,
     data,
     {
       headers: {
@@ -27,14 +27,14 @@ export const loginUser = async (data) => {
 };
 
 export const getAllUsers = async (email) => {
-  const res = await axios.get(`http://localhost:3000/api/user`, {
+  const res = await axios.get(`https://form-builder-yhfe.onrender.com/api/user`, {
     params: { email },
   });
   return res;
 };
 
 export const userExists = async (email) => {
-  const res = await axios.get(`http://localhost:3000/api/user/userExists`, {
+  const res = await axios.get(`https://form-builder-yhfe.onrender.com/api/user/userExists`, {
     params: { email },
   });
   return res;
@@ -42,7 +42,7 @@ export const userExists = async (email) => {
 
 export const updateUser = async (data) => {
   const res = await axios.put(
-    `http://localhost:3000/api/user/update`,
+    `https://form-builder-yhfe.onrender.com/api/user/update`,
     data,
     {
       headers: {
