@@ -1,0 +1,50 @@
+.container {
+  max-width: 300px;
+  width: 100%;
+  margin: 20px;
+  background-color: #171923;
+  border: 2px solid rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+  padding: 10px;
+  height: 100vh;
+}
+.start {
+  margin: 20px;
+  border-radius: 10px;
+}
+.startButton {
+  width: 325px;
+  display: flex;
+}
+.startButton img {
+  padding-right: 10px;
+}
+.input {
+  margin-top: 50px;
+}
+
+.inputContainer p{
+  font-size: 22px;
+  color: #fff;
+  margin: 30px 0 0px;
+}
+.row {
+  display: flex;
+  padding-top: 20px;
+}
+.formButton {
+  display: flex;
+  max-width: 120px;
+  width: 100%;
+  font-size: 19px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.16);;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 0.92);
+  background-color: #1F1F23;
+}
+.formButton img {
+  width: 15%;
+  padding-right: 10px;
+}

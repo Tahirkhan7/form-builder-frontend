@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    position: relative;
+    color: #fff;
+  }
+  
+  .backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .formContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  form {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+  
+  input {
+    background-color: #1a1a1a;
+    border: 2px solid #444;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  input::placeholder {
+    color: #888888ab;
+  }
+  
+  .loginButton {
+    background-color: #1a5fff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .loginButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .or {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
+  .googleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a5fff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .googleButton img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #d9d9d9;
+    padding: 3px;
+    border-radius: 30px;
+  }
+  
+  .footerText {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .footerText a {
+    color: #4b83ff;
+    text-decoration: none;
+  }
+  
+  .footerText a:hover {
+    text-decoration: underline;
+  }
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+  }
+  .error {
+    color: red;
+    border-color: rgba(255, 39, 39, 0.5);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .errorMsge{
+    color: #522224;
+  }
+  

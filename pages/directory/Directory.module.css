@@ -1,0 +1,62 @@
+.container{
+  display: flex;
+  width: 100%;
+}
+.typebotsContainer {
+  display: flex;
+}
+.createFolderButtonContainer {
+  margin: 20px;
+  border-radius: 10px;
+  padding-left: 100px;
+}
+.createFolderButton {
+  display: flex;
+  background-color: inherit;
+}
+.createFolderButton img {
+  padding-right: 10px;
+}
+
+.createFormContainer {
+  margin: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 100%;
+  padding-left: 100px;
+}
+.createFormButton {
+  display: flex;
+  background-color: #1a5fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+}
+.createFormButton img {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.formContainer {
+  margin: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 100%;
+  padding-left: 10px;
+}
+.form {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 40px;
+}
+
+.deleteIcon {
+  position: absolute;
+  top: 38.5%;
+  right: 66%;
+  transform: translateY(-50%);
+  padding: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,70 @@
+.formContainer {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+h2{
+  font-size: 24px;
+  font-weight: 400;
+}
+.form {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid #D0D0D0;
+  border-radius: 12px;
+  background-color: transparent;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  height: 30px;
+}
+
+.iconRight {
+  position: absolute;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  padding: 20px 40px 0px;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.input::placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+
+.updateButton {
+  background-color: #1A5FFF;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.updateButton:hover {
+  background-color: #1450db;
+}

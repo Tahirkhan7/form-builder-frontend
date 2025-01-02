@@ -1,0 +1,63 @@
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.heroSection {
+  margin-bottom: 40px;
+}
+.topSection {
+  display: flex;
+}
+.topSection img{
+    width: 15%;
+    height: 100%;
+    border-radius: 10px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heroSection h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #4b83ff, #b794f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 80%;
+}
+
+.heroSection p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 200;
+}
+
+.ctaButton {
+  background-color: #1A5FFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ctaButton:hover {
+  background-color: #0056b3;
+}
+
+.imageSection img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
