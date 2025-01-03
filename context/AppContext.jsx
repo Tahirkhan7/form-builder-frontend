@@ -24,7 +24,7 @@ export const AppProvider = ({ children }) => {
     setUsername(storedUsername);
     setEmail(storedEmail);
 
-    const protectedRoutes = ["/", "/dashboard", "/settings"];
+    const protectedRoutes = [ "/dashboard", "/settings"];
     if (!storedToken && protectedRoutes.includes(location.pathname)) {
       navigate("/login");
     }
