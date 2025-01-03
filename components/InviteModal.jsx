@@ -112,7 +112,7 @@ const InviteModal = () => {
     }
   }
   const handleCopyInviteLink = async () => {
-    const linkToShare = `http://localhost:5173/dashboard?invite=${workspace.workspaceId}&access=${formData.canEdit}`;
+    const linkToShare = `https://form-builder-frontend-lake.vercel.app/dashboard?invite=${workspace.workspaceId}&access=${formData.canEdit}`;
     try {
       await navigator.clipboard.writeText(linkToShare);
       toast.success("Link copied")
