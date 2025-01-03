@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -12,9 +13,9 @@ export default function Header() {
             </div>
             <div className={styles.navSec}>
               <ul className={styles.navListItems}>
-                <li>
+                <Link to="/login"><li>
                     Sign in
-                </li>
+                </li></Link>
                 <li>
                     Create a FormBot
                 </li>
