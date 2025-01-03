@@ -28,8 +28,9 @@
 .navListItems li{
     list-style: none;
 }
-.navListItems  a{
-    color: "inherit"
+.navListItems li a{
+    color: inherit;
+    text-decoration: none;
 }
 .navListItems li:first-child{
     border: 1px solid #7EA6FF;
