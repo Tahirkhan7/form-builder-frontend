@@ -29,7 +29,7 @@
     list-style: none;
 }
 .navListItems li a{
-    color: inherit;
+    color: #fff;
     text-decoration: none;
 }
 .navListItems li:first-child{
