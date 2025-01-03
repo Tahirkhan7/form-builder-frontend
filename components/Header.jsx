@@ -13,9 +13,9 @@ export default function Header() {
             </div>
             <div className={styles.navSec}>
               <ul className={styles.navListItems}>
-                <li>
-                   <Link to="/login"> Sign in</Link>
-                </li>
+                <Link to="/login"><li>
+                    Sign in
+                </li></Link>
                 <li>
                     Create a FormBot
                 </li>
